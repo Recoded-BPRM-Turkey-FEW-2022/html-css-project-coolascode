@@ -6,3 +6,49 @@ Green: #00B172
 White: #FFF
 
 */
+.green-part {
+  display: flex;
+  justify-content: space-between;
+  background-color: #00b172;
+  margin-left: 1%;
+  margin-right: 1%;
+  /* margin-top: 0 !important; */
+  height: 100vh;
+  color: #fff;
+}
+.first-part {
+  margin-top: 4%;
+  margin-left: 7%;
+  margin-bottom: 4%;
+}
+.first-part h1 {
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
+
+.item {
+  margin-top: 7%;
+  width: 50%;
+}
+
+.item > span {
+  font-weight: bold;
+  font-size: 20px;
+}
+.item > p {
+  line-height: 1.9;
+}
+.spotify-app {
+  margin-right: 70px;
+  height: 400px;
+  position: absolute;
+  top: 20%;
+  right: 7%;
+}
+.spotify-icon-white {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  width: 100px;
+  height: 100px;
+}
